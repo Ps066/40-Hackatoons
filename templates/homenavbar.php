@@ -20,8 +20,8 @@
                 <a class="nav-link nav-link" href="#">Contact</a>
               </li>
             </ul>
-            <form class="d-flex" role="register">
-              <a href="./templates.login.php"><button class="btn btn-outline-light">Register</button></a>
+            <form class="d-flex" role="register" action="">
+              <button class="btn btn-outline-light" type="sumbit">Register</button>
             </form>
           </div>
         </div>

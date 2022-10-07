@@ -12688,3 +12688,7 @@ body.sidebar-toggled footer.sticky-footer {
     margin-right:34px;
   }
 }
+.contact-container{
+    background-image: url(https://th.bing.com/th/id/R.bb73bfe6de4fa010050a06b9f004c755?rik=bTf3wpO%2b72BTsw&riu=http%3a%2f%2fwww.lowpolygonart.com%2fwp-content%2fuploads%2f2017%2f12%2fSky-100-Vertices.jpeg&ehk=1%2f5yhjoSF%2blg3Mh7v%2fqGSWGRmimXEwgWRQmbcQwEDq4%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+}
