@@ -21,6 +21,7 @@
     include_once './landpage.php';
     include_once './heropart1.php';
     include_once './heropart2.php';
+    include_once './frontfooter.php';
 
     //   footer must present
 
