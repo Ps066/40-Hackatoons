@@ -21,7 +21,7 @@
               </li>
             </ul>
             <form class="d-flex" role="register">
-              <button class="btn btn-outline-light">Register</button>
+              <a href="./templates.login.php"><button class="btn btn-outline-light">Register</button></a>
             </form>
           </div>
         </div>
