@@ -1,6 +1,6 @@
 <!-- hero part 2 begin -->
 
-<div class="row text-center justify-content-evenly text-white bg-dark" style="font-family:'Times New Roman', Times, serif">
+<div class="row text-center justify-content-evenly text-white bg-dark pb-3" style="font-family:'Times New Roman', Times, serif">
           <div class="col-md-12 pt-3 pb-3" style="color:red;">
             <hr style="color:rgb(136, 132, 132);">
              <h1>Top Feature's</h1>

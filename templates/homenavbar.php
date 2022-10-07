@@ -20,8 +20,8 @@
                 <a class="nav-link nav-link" href="#">Contact</a>
               </li>
             </ul>
-            <form class="d-flex" role="register">
-              <button class="btn btn-outline-light">Register</button>
+            <form class="d-flex" role="register" action="">
+              <button class="btn btn-outline-light" type="sumbit">Register</button>
             </form>
           </div>
         </div>

@@ -8,17 +8,19 @@
     <title>Document</title>
 </head>
 <body id="page-top">
-    <?php include_once './homenavbar.php'; ?>
-    <div class="container-fluid mt-5 pt-3 contact-container">
+    <div class="container-fluid">
     <?php
-    include_once './contact_component.php';
+    include_once './homenavbar.php';
+    include_once './landpage.php';
+    include_once './heropart1.php';
+    include_once './heropart2.php';
     include_once './frontfooter.php';
-    ?>
-    </div>
 
     //   footer must present
-    <?php include_once './footer_tags.php'; ?>
-    
+
+    include_once './footer_tags.php';
+    ?>
+    </div>
     
 </body>
 </html>
