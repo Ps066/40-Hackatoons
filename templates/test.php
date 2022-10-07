@@ -19,6 +19,8 @@
     // include_once './scroll_to_bottom.php';
     include_once './homenavbar.php';
     include_once './landpage.php';
+    include_once './heropart1.php';
+    include_once './heropart2.php';
 
     //   footer must present
 
