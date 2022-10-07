@@ -12681,3 +12681,10 @@ body.sidebar-toggled footer.sticky-footer {
         font-size: 18px !important;
     }
   }
+
+  @media only screen and (min-width:767px){
+    .img-hero2
+    {
+    margin-right:34px;
+  }
+}
