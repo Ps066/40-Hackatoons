@@ -86,45 +86,7 @@
                 </li>
             
             <!-- advisor  -->
-            <li class="nav-item">
-                <a class="nav-link" href="charts.html">
-                    <i class="fas fa-fw fa-user-tie"></i>
-                    <span>Advisor</span></a>
-                </li>
-            
-            <!-- bookmark  -->
-            <li class="nav-item">
-                <a class="nav-link" href="charts.html">
-                    <i class="fas fa-fw fa-bookmark"></i>
-                    <span>Bookmark</span></a>
-                </li>
-            
-            <!-- review  -->
-            <li class="nav-item">
-                <a class="nav-link" href="charts.html">
-                    <i class="fas fa-fw fa-star"></i>
-                    <span>Review</span></a>
-                </li>
-            
-            <!-- report  -->
-            <li class="nav-item">
-                <a class="nav-link" href="charts.html">
-                   <i class="fas fa-fw fa-file"></i>
-                    <span>Report</span></a>
-                </li>
-
-            <!-- feedback  -->
-            <li class="nav-item">
-                <a class="nav-link" href="charts.html">
-                    <i class="fas fa-fw fa-comment"></i>
-                    <span>Feedback</span></a>
-                </li>
-            
-            <li class="nav-item">
-                <a class="nav-link" href="charts.html">
-                    <i class="fas fa-fw fa-chart-area"></i>
-                    <span>Charts</span></a>
-                </li>
+           
                 
 
                 <!-- user

@@ -14,6 +14,7 @@
     include_once './contact_component.php';
     include_once './frontfooter.php';
     ?>
+    
     </div>
 
     //   footer must present
