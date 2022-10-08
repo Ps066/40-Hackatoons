@@ -59,7 +59,13 @@ $parts = explode("@",$email);
 $username = $parts[0]; 
 echo $username;
 
+$allowed = array("gmail.com","yahoo.com");
 
+if(in_array($domain,$allowed)){
+    echo "success";
+}else{
+    echo "fail"; 
+}
 
 
 ?>
