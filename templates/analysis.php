@@ -14,6 +14,7 @@
     include_once './mailanaysis.php';
     include_once './frontfooter.php';
     ?>
+    
     </div>
 
     <?php include_once './footer_tags.php'; ?>

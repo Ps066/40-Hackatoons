@@ -8,15 +8,14 @@
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <!-- <i class="fas fa-laugh-wink"></i> -->
-                    Icon
+                    <img src="../assets/img/lOGO-removebg-preview.png" style="width:30%">
                 </div>
-                <div class="sidebar-brand-text mx-3">Admin title</div>
+                <div class="sidebar-brand-text mx-3">ESecura</div>
                 <!-- <sup>2</sup> -->
             </a>
 
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
-
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
                 <a class="nav-link" href="index.html">
@@ -86,45 +85,7 @@
                 </li>
             
             <!-- advisor  -->
-            <li class="nav-item">
-                <a class="nav-link" href="charts.html">
-                    <i class="fas fa-fw fa-user-tie"></i>
-                    <span>Advisor</span></a>
-                </li>
-            
-            <!-- bookmark  -->
-            <li class="nav-item">
-                <a class="nav-link" href="charts.html">
-                    <i class="fas fa-fw fa-bookmark"></i>
-                    <span>Bookmark</span></a>
-                </li>
-            
-            <!-- review  -->
-            <li class="nav-item">
-                <a class="nav-link" href="charts.html">
-                    <i class="fas fa-fw fa-star"></i>
-                    <span>Review</span></a>
-                </li>
-            
-            <!-- report  -->
-            <li class="nav-item">
-                <a class="nav-link" href="charts.html">
-                   <i class="fas fa-fw fa-file"></i>
-                    <span>Report</span></a>
-                </li>
-
-            <!-- feedback  -->
-            <li class="nav-item">
-                <a class="nav-link" href="charts.html">
-                    <i class="fas fa-fw fa-comment"></i>
-                    <span>Feedback</span></a>
-                </li>
-            
-            <li class="nav-item">
-                <a class="nav-link" href="charts.html">
-                    <i class="fas fa-fw fa-chart-area"></i>
-                    <span>Charts</span></a>
-                </li>
+           
                 
 
                 <!-- user
