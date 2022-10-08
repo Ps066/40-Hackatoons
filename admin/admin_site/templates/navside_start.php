@@ -81,7 +81,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="charts.html">
                     <i class="fas fa-fw fa-user"></i>
-                    <span>User</span></a>
+                    <span>Prashant</span></a>
                 </li>
             
             <!-- advisor  -->
@@ -99,7 +99,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="tables.html">
                         <i class="fas fa-fw fa-table"></i>
-                        <span>Tables</span></a>
+                        <span>Issues</span></a>
                     </li>
                     
                     <li class="nav-item">
