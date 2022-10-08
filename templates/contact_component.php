@@ -17,7 +17,7 @@
                       <input type="number" class="form-control" id="exampleInputPassword1" maxlength="10" minlength="10" required>
                     </div>
                     <div class="mb-3">
-                        <label for="validationTextarea" class="form-label">Write your Message</label>
+                        <label for="validationTextarea" class="form-label">Write your Query</label>
                         <textarea class="form-control" id="validationTextarea"></textarea>
                       </div>
                     <div class="mb-3 form-check">
