@@ -5,8 +5,8 @@ $email = $_POST['sender'];
 
 if(filter_var($email, FILTER_VALIDATE_EMAIL))
 {
-echo "Valid email";
-echo "<br>";
+// echo "Valid email";
+// echo "<br>";
 $count = 0;
 $domain = "";
 $chars = str_split($email);
@@ -21,13 +21,13 @@ foreach($chars as $ch){
     }
 }
 
-echo "<br>";
+// echo "<br>";
 
 //Prses through characters after @
 for($x=$count ; $x<$email_len ; $x++){
     $domain = $domain.$email[$x];
 }
-echo $domain;
+// echo $domain;
 
 $e_count=0;
 $exe = "";
@@ -44,8 +44,8 @@ foreach($echars as $ch){
 for($x=$e_count ; $x<$email_elen ; $x++){
     $exe = $exe.$email[$x];
 }
-echo "<br>";
-echo $exe;
+// echo "<br>";
+// echo $exe;
 
 
 
@@ -57,14 +57,17 @@ echo "Invalid Email";
 
 $parts = explode("@",$email); 
 $username = $parts[0]; 
-echo $username;
+// echo $username;
 
 $allowed = array("gmail.com","yahoo.com");
 
 if(in_array($domain,$allowed)){
-    echo "success";
+    // echo "success";
+
+    echo "<script> alert('The following Mail and the sender seem legitimate and geninue'); </script>";
 }else{
-    echo "fail"; 
+    // echo "fail"; 
+    echo "<script> alert('The following mail seem malicious and junk, please block and report spam'); </script>";
 }
 
 
