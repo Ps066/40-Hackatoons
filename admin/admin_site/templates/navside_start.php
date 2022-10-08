@@ -8,9 +8,9 @@
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <!-- <i class="fas fa-laugh-wink"></i> -->
-                    Icon
+                    <img src=".../assets/img/lOGO-removebg-preview.png" style="width:3%">
                 </div>
-                <div class="sidebar-brand-text mx-3">Admin title</div>
+                <div class="sidebar-brand-text mx-3">E Secura</div>
                 <!-- <sup>2</sup> -->
             </a>
 
