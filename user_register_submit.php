@@ -1,76 +1,59 @@
 <?php
 
-function redirect($link){
-    
+function redirect($link)
+{
     ?>
     <script>
-        window.location.href='<?php echo $link?>';
+        window.location.href='<?php echo $link; ?>';
     </script>
 
-    <?php
-
-    die();
+    <?php die();
 }
-include('conn.php');
+include 'conn.php';
 
-if(isset($_POST['submit'])){
+if (isset($_POST['submit'])) {
+    $name = $_POST['full_name'];
+    $email = $_POST['email'];
+    $pass = $_POST['password'];
+    $cpass = $_POST['cpassword'];
 
-    $name=$_POST['full_name'];
-    $email=$_POST['email'];
-    $pass=$_POST['password'];
-    $cpass=$_POST['cpassword'];
+    $emailid = "SELECT * FROM users WHERE email='$email' ";
+    $result1 = mysqli_query($conn, $emailid);
 
-    $emailid="SELECT * FROM users WHERE email='$email' ";
-    $result1=mysqli_query($conn,$emailid);
+    $ecount = mysqli_num_rows($result1);
 
-
-    $ecount=mysqli_num_rows($result1);
-
-    if($ecount>1){
-        ?>
+    if ($ecount > 1) { ?>
         <script>
             alert('email already exists');
 
         </script>
-        <?php
-    }else{
-        if($pass===$cpass){
+        <?php } else {if ($pass === $cpass) {
+            $query = " INSERT INTO users (name,email,password,cpassword) values ('$name','$email','$pass','$cpass') ";
+            $result = mysqli_query($conn, $query);
 
-            $query= " INSERT INTO users (name,email,password,cpassword) values ('$name','$email','$pass','$cpass') ";
-            $result=mysqli_query($conn,$query);
-
-            if($result){
-                ?>
+            if ($result) { ?>
 
                 
 
                 <script>
                     alert('connection sucessful');
                 </script>
-                <?php
-            }else{
-                ?>
+                <?php } else { ?>
                 <script>
                     alert('no connection');
                 </script>
-                <?php
-            }
-
-
-        }else{
-            ?>
+                <?php }
+        } else {
+             ?>
             <script>
                 alert('password not matching');
             </script>
             <?php
-        }
-    }
-    
+        }}
 }
 
+redirect('login.php');
 
-redirect('new.php');
-    
 mysqli_close($conn);
 
 ?>
