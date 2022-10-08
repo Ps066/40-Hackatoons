@@ -41,7 +41,7 @@ include('conn.php');
     $row=mysqli_fetch_assoc($result);
     // echo $row['email'];
     if($row){
-        redirect('new.php');
+        redirect('./admin/admin_site/templates/test.php');
     
     }
     else{

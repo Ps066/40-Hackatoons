@@ -11,15 +11,12 @@
     <?php include_once './homenavbar.php'; ?>
     <div class="container-fluid mt-5 pt-3 contact-container">
     <?php
-    include_once './contact_component.php';
+    include_once './mailanaysis.php';
     include_once './frontfooter.php';
     ?>
-    
     </div>
 
-    //   footer must present
     <?php include_once './footer_tags.php'; ?>
-    
-    
+
 </body>
 </html>
