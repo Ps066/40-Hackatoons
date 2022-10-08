@@ -39,6 +39,11 @@
                         <div class="group">
                             <label for="user" class="label">Email Address</label>
                             <input id="user" name="email" type="email" class="input form-control" required>
+                            <?php
+                            if(isset($_SESSION['error'])){
+                                echo $_SESSION['error'];
+                            }
+                            ?>
                         </div>
                         <div class="group">
                             <label for="pass" class="label">Password</label>
