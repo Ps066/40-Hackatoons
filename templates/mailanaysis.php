@@ -1,14 +1,14 @@
 <div class="row p-5 justify-content-center" >
           <div class="col-md-6 p-3" style="background-color: white;">
             <h5 class="pb-3">Let's Analyse your Email</h5>
-            <form>
+            <form method="post" action="./maillogic.php">
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Receiver Email address</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
               </div>
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Sender Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="sender">
               </div>
               <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">Subject</label>
