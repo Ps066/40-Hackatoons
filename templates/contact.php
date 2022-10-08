@@ -5,7 +5,7 @@
 <head>
     <!-- add your style link and keep this meta as it is -->
     <?php include_once './meta_tags.php'; ?>
-    <title>Document</title>
+    <title>E Secura - Contact</title>
 </head>
 <body id="page-top">
     <?php include_once './homenavbar.php'; ?>

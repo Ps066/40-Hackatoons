@@ -5,7 +5,7 @@
 <head>
     <!-- add your style link and keep this meta as it is -->
     <?php include_once './meta_tags.php'; ?>
-    <title>Document</title>
+    <title>E Secura - Providing all in one secureness at one place.</title>
 </head>
 <body id="page-top">
     <div class="container-fluid">
