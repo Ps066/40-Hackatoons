@@ -1,4 +1,5 @@
 <?php
+session_start();
 // include('conn.php');
 function redirect($link){
 
@@ -17,6 +18,21 @@ include('conn.php');
     $email=$_POST['email'];
     $pass=$_POST['password'];
 // $cpass=$_POST['cpassword'];
+    $sql_email=" SELECT * FROM users WHERE email='$email' ";
+    $result_email=mysqli_query($conn,$sql_email);
+
+    $row1=mysqli_fetch_assoc($result_email);
+
+    if(!$row1){
+       $_SESSION['error']='<h1 style="color:red">email already registered</h1>';
+       redirect('login.php');
+    }
+    
+
+
+
+
+
 
     $sql="SELECT * FROM users WHERE email='$email' and password='$pass' ";
 
