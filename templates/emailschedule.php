@@ -9,7 +9,7 @@
 </head>
 <body id="page-top">
     <?php include_once './homenavbar.php'; ?>
-    <div class="container-fluid mt-5 pt-3 contact-container">
+    <div class="container-fluid mt-5 pt-5 contact-container">
     <?php
     include_once './ts.php';
     include_once './frontfooter.php';
